@@ -7,9 +7,9 @@ const userScorePara = document.querySelector("#user-score");
 const compScorePara = document.querySelector("#comp-score");
 
 const genCompChoice = () => {
-  const options = ["rock", "paper", "scissors"];
+  const options = ["rock", "paper", "scissor"];
 
-  // rock  , paper  , scissors
+  // rock  , paper  , scissor
 
   const randomIdx = Math.floor(Math.random() * 3);
 
@@ -54,8 +54,8 @@ const playGame = (userChoice) => {
       // scissors , rock
       userWin = compChoice === "paper" ? false : true;
     } else if (userChoice === "paper") {
-      //rock , scissors
-      userWin = compChoice === "scissors" ? false : true;
+      //rock , scissor
+      userWin = compChoice === "scissor" ? false : true;
     } else {
       //rock , paper
       userWin = compChoice === "rock" ? false : true;
