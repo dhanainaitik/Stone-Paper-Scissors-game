@@ -13,7 +13,7 @@ h1{
 }
 
 body{
-    background-color: #c46d02;
+    background-color: #fffefd;
    
 }
 .choice {
@@ -126,8 +126,6 @@ img {
     }
 }
 
-
-
 .comp-choice{
     display: flex;
     justify-content: center;
@@ -139,8 +137,6 @@ img {
     font-size: 1.5rem;
     margin-right: 1rem;
 }
-
-
 
 @media (max-width: 480px) {
 
