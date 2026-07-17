@@ -5,6 +5,8 @@ const choices = document.querySelectorAll(".choice");
 
 const userScorePara = document.querySelector("#user-score");
 const compScorePara = document.querySelector("#comp-score");
+const compImg = document.querySelector("#comp-img");
+
 
 const genCompChoice = () => {
   const options = ["rock", "paper", "scissor"];
@@ -14,7 +16,19 @@ const genCompChoice = () => {
   const randomIdx = Math.floor(Math.random() * 3);
 
   return options[randomIdx];
-};
+};  
+
+const compChoiceImg = (compChoice) => {
+  if (compChoice === "rock") {
+    compImg.src = "./rock hai.png";
+  } else if (compChoice === "paper") {
+    compImg.src = "./paper hai.png";
+  } else {
+    compImg.src = "./scissor hai.png";
+  }
+} 
+
+
 
 const drawgame = () => {
     console.log("It's a tie!");
@@ -44,6 +58,9 @@ const playGame = (userChoice) => {
 
   const compChoice = genCompChoice();
 
+  compChoiceImg(compChoice); // update computer choice image
+
+
   console.log("computer choice = ", compChoice);
 
   if (userChoice === compChoice) {
@@ -51,7 +68,7 @@ const playGame = (userChoice) => {
   } else {
     let userWin = true;
     if (userChoice === "rock") {
-      // scissors , rock
+      // scissor , rock
       userWin = compChoice === "paper" ? false : true;
     } else if (userChoice === "paper") {
       //rock , scissor
