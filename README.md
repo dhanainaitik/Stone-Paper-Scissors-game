@@ -7,48 +7,52 @@
 </p>
 
 <p align="center">
-  <b>A fun and interactive Rock Paper Scissor game built using HTML, CSS & JavaScript.</b>
+  <b>A fun and interactive Rock Paper Scissor Game built using HTML, CSS & JavaScript.</b>
+</p>
+
+<p align="center">
+  <a href="https://dhanainaitik.github.io/Stone-Paper-Scissors-game/">
+    <img src="https://img.shields.io/badge/🚀%20Live%20Demo-Play%20Now-success?style=for-the-badge">
+  </a>
 </p>
 
 ---
 
-## 🚀 Live Demo
+# 🎥 Demo
 
-🔗 **Play Here:**  
-https://dhanainaitik.github.io/Stone-Paper-Scissors-game/
+<p align="center">
+  <img src="demo.gif" alt="Rock Paper Scissor Demo" width="800">
+</p>
 
 ---
 
-## 📸 Preview
+# 🚀 Live Demo
 
-> Add a screenshot of your project here.
-
-```md
-![Game Screenshot](screenshot.png)
-```
-
-*(Upload a screenshot named `screenshot.png` to your repository.)*
+### 🔗 https://dhanainaitik.github.io/Stone-Paper-Scissors-game/
 
 ---
 
 # ✨ Features
 
-- 🎮 Interactive gameplay
-- 🤖 Random computer moves
-- 📈 Live score tracking
-- 🏆 Win, Lose & Draw detection
-- 💬 Dynamic game messages
-- 🖼️ Displays computer's selected move
-- 📱 Fully Responsive Design
-- ⚡ Fast and lightweight
+- 🎮 Interactive Rock Paper Scissor gameplay
+- 🤖 Random Computer Choice Generator
+- 📈 Real-time Score Tracking
+- 🏆 Win / Lose / Draw Detection
+- 💬 Dynamic Result Messages
+- 🖼️ Computer Choice Display
+- 📱 Fully Responsive UI
+- ⚡ Fast & Lightweight
+- 🎯 Beginner-Friendly JavaScript Project
 
 ---
 
-# 🛠️ Built With
+# 🛠️ Tech Stack
 
-- HTML5
-- CSS3
-- JavaScript (ES6)
+| Technology | Usage |
+|------------|-------|
+| HTML5 | Structure |
+| CSS3 | Styling & Responsive Design |
+| JavaScript (ES6) | Game Logic |
 
 ---
 
@@ -60,6 +64,7 @@ https://dhanainaitik.github.io/Stone-Paper-Scissors-game/
 ├── index.html
 ├── style.css
 ├── script.js
+├── demo.gif
 ├── rock hai.png
 ├── paper hai.png
 ├── scissor hai.png
@@ -68,26 +73,10 @@ https://dhanainaitik.github.io/Stone-Paper-Scissors-game/
 
 ---
 
-# 🎯 How to Run
-
-```bash
-git clone https://github.com/dhanainaitik/Stone-Paper-Scissors-game.git
-```
-
-Open
-
-```text
-index.html
-```
-
-inside your browser.
-
----
-
 # 🎮 Game Rules
 
-| Your Choice | Computer Choice | Result |
-|-------------|-----------------|--------|
+| Player | Computer | Result |
+|--------|----------|--------|
 | 🪨 Rock | ✂️ Scissor | ✅ Win |
 | 🪨 Rock | 📄 Paper | ❌ Lose |
 | 📄 Paper | 🪨 Rock | ✅ Win |
@@ -97,23 +86,48 @@ inside your browser.
 
 ---
 
+# 🚀 Getting Started
+
+Clone the repository
+
+```bash
+git clone https://github.com/dhanainaitik/Stone-Paper-Scissors-game.git
+```
+
+Move into the project
+
+```bash
+cd Stone-Paper-Scissors-game
+```
+
+Open
+
+```text
+index.html
+```
+
+in your browser.
+
+---
+
 # 📈 Future Improvements
 
 - 🔊 Sound Effects
 - 🌙 Dark Mode
 - 🎨 Better Animations
 - 🧠 Difficulty Levels
-- 💾 Save High Score
+- 💾 Local Storage High Score
 - 👥 Multiplayer Mode
+- ⏱️ Countdown Timer
 
 ---
 
 # 🤝 Contributing
 
-Contributions are always welcome.
+Contributions are welcome!
 
 1. Fork the repository
-2. Create a new branch
+2. Create a feature branch
 3. Commit your changes
 4. Push your branch
 5. Open a Pull Request
@@ -122,16 +136,28 @@ Contributions are always welcome.
 
 # 👨‍💻 Author
 
-### **Naitik Dhanai**
+## Naitik Dhanai
 
-🔗 GitHub: https://github.com/dhanainaitik
+<p align="left">
+<a href="https://github.com/dhanainaitik">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github">
+</a>
 
-🔗 LinkedIn: https://www.linkedin.com/in/naitik-dhanai-a424a6381/
+<a href="https://www.linkedin.com/in/naitik-dhanai-a424a6381/">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin">
+</a>
 
-🔗 YouTube: https://www.youtube.com/@dhanainaitik
+<a href="https://www.youtube.com/@dhanainaitik">
+<img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube">
+</a>
+</p>
 
 ---
 
 <p align="center">
-⭐ If you enjoyed this project, consider giving it a star!
+
+### ⭐ If you found this project useful, don't forget to Star this repository!
+
+Made with ❤️ by **Naitik Dhanai**
+
 </p>
