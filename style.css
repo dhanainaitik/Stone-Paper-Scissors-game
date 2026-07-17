@@ -126,6 +126,22 @@ img {
     }
 }
 
+
+
+.comp-choice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+#paraa{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+
+
 @media (max-width: 480px) {
 
     h1{
